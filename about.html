@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom Colors */
+        :root {
+            --primary-bg: rgb(253,252,247);
+            --secondary-bg: #6F8FAF;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: var(--primary-bg);
+            color: var(--secondary-bg);
+        }
+
+        header {
+            background-color: var(--secondary-bg);
+            color: var(--primary-bg);
+            padding: 15px 0;
+        }
+
+        header .navbar-brand {
+            color: var(--primary-bg);
+            font-weight: bold;
+        }
+
+        header .navbar-nav .nav-link {
+            color: var(--primary-bg);
+        }
+
+        header .navbar-nav .nav-link:hover {
+            color: var(--secondary-bg);
+            background-color: var(--primary-bg);
+            border-radius: 5px;
+        }
+
+        .about-section {
+            padding: 50px 20px;
+            background-color: var(--primary-bg);
+        }
+
+        .about-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .about-section p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        footer {
+            background-color: var(--secondary-bg);
+            color: var(--primary-bg);
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Aanchal Jha</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Aanchal Jha, a passionate web developer with experience in creating dynamic and responsive websites. I specialize in using HTML, CSS, and JavaScript to bring ideas to life on the web. My portfolio showcases my skills and the projects I've worked on, highlighting my journey in the field of web development.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Aanchal Jha. All rights reserved.</p>
+        <p>Designed by Aanchal Jha</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
